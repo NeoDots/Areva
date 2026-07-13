@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Areva Ingredients | Premium Botanical Skincare</title>
+  <meta name="description" content="Experience premium botanical skincare formulated with carefully selected natural ingredients. Elegant, luxurious, and organic skincare by Areva Ingredients.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Preconnect to fonts for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+  <!-- --- PRELOADER --- -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <div class="preloader-ring"></div>
+      <div class="preloader-logo-slot" id="preloader-logo-slot">
+        <img src="assets/logo.jpg" alt="Areva Ingredients Logo"> 
+      </div>
+    </div>
+    <span class="preloader-brand">AREVA<span>INGREDIENTS</span></span>
+  </div>
+
+  <!-- --- HEADER & NAVIGATION --- -->
+  <header id="header">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" id="nav-logo-link">
+        <img src="assets/logo.jpg" alt="Areva Ingredients Logo" class="logo-img">
+        <div class="brand-name-wrapper">
+          <span class="nav-logo-text">AREVA</span>
+          <span class="nav-logo-tagline">INGREDIENTS</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="btn btn-gold btn-whatsapp" id="nav-whatsapp-btn">
+          <span class="btn-icon"><i class="bi bi-whatsapp"></i></span>
+          WhatsApp Order
+        </button>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- --- HERO SECTION --- -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <span class="hero-tagline">Areva Ingredients</span>
+        <h1 class="hero-title">The Core of Nature.<br><span>The Honor of Worth.</span></h1>
+        <p class="hero-desc">Experience premium botanical skincare formulated with carefully selected natural ingredients to nourish and restore your skin's natural radiance.</p>
+        <div class="hero-btns">
+          <a href="#products" class="btn btn-primary">Explore Collection</a>
+          <button class="btn btn-secondary btn-whatsapp" id="hero-whatsapp-btn">
+            <span class="btn-icon"><i class="bi bi-whatsapp"></i></span>
+            Order on WhatsApp
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-image-container reveal-scale reveal-delay-2">
+        <div class="hero-ellipse-bg"></div>
+        <div class="hero-img-wrap hero-img-oil">
+          <img src="assets/face-oil.jpg" alt="Areva Face Oil Premium Bottle">
+        </div>
+        <div class="hero-img-wrap hero-img-butter">
+          <img src="assets/body-butter.jpg" alt="Areva Body Butter Amber Jar">
+        </div>
+        <div class="hero-badge">
+          <div class="hero-badge-icon">
+            <i class="bi bi-info-circle"></i>
+          </div>
+          <div class="hero-badge-text">
+            <h4>100% Organic</h4>
+            <p>Certified Ingredients</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- WHY CHOOSE AREVA --- -->
+  <section class="why-section">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-subtitle">Pure & True</span>
+        <h2 class="section-title">The Philosophy of Areva</h2>
+        <p class="section-description">Formulated to preserve nature's raw potency and deliver visible results.</p>
+      </div>
+
+      <div class="why-grid">
+        <!-- Card 1 -->
+        <div class="why-card reveal">
+          <div class="why-card-icon">
+            <i class="bi bi-flower1"></i>
+          </div>
+          <h3 class="why-card-title">100% Natural Ingredients</h3>
+          <p class="why-card-desc">Sourced directly from certified growers, retaining pure active compounds for optimum skin absorption.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="why-card reveal reveal-delay-1">
+          <div class="why-card-icon">
+            <i class="bi bi-shield-check"></i>
+          </div>
+          <h3 class="why-card-title">Chemical-Free Formula</h3>
+          <p class="why-card-desc">Strictly zero synthetic parabens, sulfates, artificial fragrances, or fillers. Only pure botanical nutrition.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="why-card reveal reveal-delay-2">
+          <div class="why-card-icon">
+            <i class="bi bi-heart"></i>
+          </div>
+          <h3 class="why-card-title">Cruelty-Free</h3>
+          <p class="why-card-desc">Gentle, organic, and hypoallergenic formulations designed to respect and balance your skin's natural pH.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="why-card reveal reveal-delay-3">
+          <div class="why-card-icon">
+            <i class="bi bi-stars"></i>
+          </div>
+          <h3 class="why-card-title">Crafted with Care</h3>
+          <p class="why-card-desc">Handcrafted in small batches with strict quality controls to ensure maximum freshness and raw potency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FEATURED PRODUCTS SECTION --- -->
+  <section id="products" class="products-section">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-subtitle">The Skincare Collection</span>
+        <h2 class="section-title">Nourished by Botanicals</h2>
+        <p class="section-description">Premium botanical formulations custom-developed to nourish your skin and reveal a natural, healthy glow.</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Product Card 1: Face Oil -->
+        <div class="product-card reveal-left">
+          <div class="product-card-image">
+            <img src="assets/face-oil.jpg" alt="Areva Face Oil Elixir">
+          </div>
+          <div class="product-card-content">
+            <span class="product-card-tag">Elixir</span>
+            <h3 class="product-card-title">Areva Face Oil</h3>
+            <p class="product-card-desc">A luxury elixir that deeply hydrates, brightens, and restores your complexion. Absorbs effortlessly to reveal a radiant, natural glow.</p>
+            <div class="product-card-actions">
+              <a href="face-oil.html" class="btn btn-secondary">Learn More</a>
+              <button class="btn btn-primary btn-whatsapp order-product-btn" data-product="face-oil">
+                <span class="btn-icon"><i class="bi bi-whatsapp"></i></span>
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 2: Body Butter -->
+        <div class="product-card reveal-right reveal-delay-1">
+          <div class="product-card-image">
+            <img src="assets/body-butter.jpg" alt="Areva Body Butter Jar">
+          </div>
+          <div class="product-card-content">
+            <span class="product-card-tag">Nourish</span>
+            <h3 class="product-card-title">Areva Body Butter</h3>
+            <p class="product-card-desc">A whipped, deeply restorative cream that locks in 24-hour hydration. Restores supple elasticity and relieves dryness with botanical lipids.</p>
+            <div class="product-card-actions">
+              <a href="body-butter.html" class="btn btn-secondary">Learn More</a>
+              <button class="btn btn-primary btn-whatsapp order-product-btn" data-product="body-butter">
+                <span class="btn-icon"><i class="bi bi-whatsapp"></i></span>
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- BOTANICAL INGREDIENTS SECTION --- -->
+  <section class="ingredients-section">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-subtitle">Active Elements</span>
+        <h2 class="section-title">Our Botanical Actives</h2>
+        <p class="section-description">We harness pure botanical oils, butters, and extracts that work in harmony with your skin's biology.</p>
+      </div>
+
+      <div class="ingredients-grid">
+        <!-- Ingredient 1: Jojoba Oil -->
+        <div class="ingredient-card reveal">
+          <div class="ingredient-illustration">
+            <i class="bi bi-droplet"></i>
+          </div>
+          <h3 class="ingredient-name">Jojoba Oil</h3>
+          <p class="ingredient-benefit">Balances natural sebum production and hydrates skin deeply.</p>
+        </div>
+
+        <!-- Ingredient 2: Rose Oil -->
+        <div class="ingredient-card reveal reveal-delay-1">
+          <div class="ingredient-illustration">
+            <i class="bi bi-flower1"></i>
+          </div>
+          <h3 class="ingredient-name">Rose Oil</h3>
+          <p class="ingredient-benefit">Soothes sensitive skin, reduces redness, and leaves a premium aroma.</p>
+        </div>
+
+        <!-- Ingredient 3: Virgin Coconut Oil -->
+        <div class="ingredient-card reveal reveal-delay-2">
+          <div class="ingredient-illustration">
+            <i class="bi bi-sun"></i>
+          </div>
+          <h3 class="ingredient-name">Virgin Coconut Oil</h3>
+          <p class="ingredient-benefit">Forms a natural antimicrobial layer to lock in vital skin hydration.</p>
+        </div>
+
+        <!-- Ingredient 4: Frankincense -->
+        <div class="ingredient-card reveal reveal-delay-3">
+          <div class="ingredient-illustration">
+            <i class="bi bi-tree"></i>
+          </div>
+          <h3 class="ingredient-name">Frankincense</h3>
+          <p class="ingredient-benefit">Protects skin cells, reduces signs of aging, and tones tissue.</p>
+        </div>
+
+        <!-- Ingredient 5: Shea Butter -->
+        <div class="ingredient-card reveal">
+          <div class="ingredient-illustration">
+            <i class="bi bi-droplet-fill"></i>
+          </div>
+          <h3 class="ingredient-name">Shea Butter</h3>
+          <p class="ingredient-benefit">Provides rich essential lipids for intense dryness relief and healing.</p>
+        </div>
+
+        <!-- Ingredient 6: Cocoa Butter -->
+        <div class="ingredient-card reveal reveal-delay-1">
+          <div class="ingredient-illustration">
+            <i class="bi bi-droplet-half"></i>
+          </div>
+          <h3 class="ingredient-name">Cocoa Butter</h3>
+          <p class="ingredient-benefit">Melts at skin temperature to lock in skin elasticity and moisture.</p>
+        </div>
+
+        <!-- Ingredient 7: Wheat Germ Oil -->
+        <div class="ingredient-card reveal reveal-delay-2">
+          <div class="ingredient-illustration">
+            <i class="bi bi-moisture"></i>
+          </div>
+          <h3 class="ingredient-name">Wheat Germ Oil</h3>
+          <p class="ingredient-benefit">Rich in Vitamin E to support skin cell regeneration and repair.</p>
+        </div>
+
+        <!-- Ingredient 8: Beeswax -->
+        <div class="ingredient-card reveal reveal-delay-3">
+          <div class="ingredient-illustration">
+            <i class="bi bi-hexagon"></i>
+          </div>
+          <h3 class="ingredient-name">Beeswax</h3>
+          <p class="ingredient-benefit">Acts as a breathable protective shield preventing moisture loss.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- ABOUT SECTION --- -->
+  <section id="about" class="about-section">
+    <div class="container about-grid">
+      <div class="about-image-left reveal-left">
+        <img src="assets/about-brand.jpg" alt="Areva Ingredients Botanical flatlay" class="about-img">
+      </div>
+      <div class="about-content-right reveal-right reveal-delay-1">
+        <span class="section-subtitle">The Spirit of Worth</span>
+        <h2 class="section-title">About Areva Ingredients</h2>
+        <p class="about-text-story">
+          Areva Ingredients is born from a desire to return skincare to its purest origins. We believe your skin deserves nothing less than nature's finest ingredients, harvested ethically and crafted in small batches to preserve their raw potency.
+        </p>
+        <p class="about-text-story">
+          Our formulations honor quality, purity, and simplicity. By eliminating synthetic additives and harsh chemicals, we deliver luxurious skincare that works in absolute harmony with your skin's natural biology.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- TESTIMONIALS SECTION --- -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-subtitle">Testimonials</span>
+        <h2 class="section-title">Loved by Our Customers</h2>
+        <p class="section-description">See what our customers say about their Areva skincare experience.</p>
+      </div>
+
+      <div class="testimonials-carousel-container reveal reveal-delay-1">
+        <div class="testimonials-carousel-wrapper">
+          <!-- Slide 1 -->
+          <div class="testimonial-slide active" data-index="0">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"The Face Oil is absolutely magical! It absorbs so quickly and gives my skin a gorgeous, healthy glow. I can't recommend it enough!"</p>
+            <h4 class="testimonial-name">Sarah Jacob</h4>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-slide" data-index="1">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Using the Body Butter has saved my dry skin this season. It smells heavenly and locks in moisture all day. Pure luxury."</p>
+            <h4 class="testimonial-name">Devika Nair</h4>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="testimonial-slide" data-index="2">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"I love that these products are 100% natural and chemical-free. Premium quality skincare that actually feels luxurious."</p>
+            <h4 class="testimonial-name">Amal Salem</h4>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="testimonial-slide" data-index="3">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Outstanding results! The ingredients are top-notch and the quality is obvious from the first application. Highly recommended."</p>
+            <h4 class="testimonial-name">Rita Mathew</h4>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="carousel-controls">
+          <button class="carousel-control-btn prev-btn" id="testimonial-prev" aria-label="Previous Review">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <div class="carousel-dots" id="carousel-dots-container">
+            <span class="carousel-dot active" data-index="0"></span>
+            <span class="carousel-dot" data-index="1"></span>
+            <span class="carousel-dot" data-index="2"></span>
+            <span class="carousel-dot" data-index="3"></span>
+          </div>
+          <button class="carousel-control-btn next-btn" id="testimonial-next" aria-label="Next Review">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+
+        <!-- Autoplay progress indicator -->
+        <div class="testimonial-progress-track" id="testimonial-progress-track">
+          <div class="testimonial-progress-fill"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- CONTACT SECTION --- -->
+  <section id="contact" class="contact-section">
+    <!-- Soft Golden Radial Glow behind content -->
+    <div class="contact-glow"></div>
+
+    <div class="container reveal-scale">
+      <div class="contact-card-centered">
+        <span class="contact-top-label">GET IN TOUCH</span>
+        <h2 class="contact-luxury-heading">Let's Talk</h2>
+        <p class="contact-luxury-subtext">Have questions about our botanical formulations or need help choosing the right care?</p>
+        
+        <div class="contact-details-minimal">
+          <div class="contact-detail-item">
+            <i class="bi bi-envelope"></i>
+            <a href="mailto:arevaingredients@gmail.com">arevaingredients@gmail.com</a>
+          </div>
+          
+          <div class="contact-detail-item">
+            <i class="bi bi-whatsapp"></i>
+            <div>
+              <a href="tel:+96871265767">+968 7126 5767 (Oman)</a>
+              <span class="detail-item-sep">•</span>
+              <a href="tel:+919383462670">+91 9383462670 (India)</a>
+            </div>
+          </div>
+          
+          <div class="contact-detail-item">
+            <i class="bi bi-geo-alt"></i>
+            <span>Kerala, India</span>
+          </div>
+        </div>
+
+        <div class="contact-button-wrapper">
+          <button class="btn btn-whatsapp-luxury btn-whatsapp" id="contact-whatsapp-btn">
+            <span class="btn-icon"><i class="bi bi-whatsapp"></i></span>
+            Order on WhatsApp
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer class="luxury-footer">
+    <div class="container footer-minimal-content reveal-fade">
+      <div class="footer-logo-center">
+        <img src="assets/logo.jpg" alt="Areva Ingredients Logo" class="footer-logo-img">
+        <span class="footer-logo-text">AREVA INGREDIENTS</span>
+      </div>
+      <p class="footer-tagline-center">"The Core of Nature, The Honor of Worth."</p>
+      
+      <div class="footer-socials-center">
+        <a href="#" class="footer-social-link" aria-label="Instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="#" class="footer-social-link" aria-label="Facebook">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://wa.me/96871265767" class="footer-social-link" aria-label="WhatsApp">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+      </div>
+      
+      <div class="footer-divider-center"></div>
+      
+      <p class="copyright-center">&copy; 2026 Areva Ingredients. All Rights Reserved. Crafted with nature, for skin health.</p>
+    </div>
+  </footer>
+
+  <!-- --- WHATSAPP FLOATING WIDGET --- -->
+  <div class="whatsapp-widget" id="whatsapp-widget">
+    <div class="whatsapp-widget-card">
+      <div class="whatsapp-widget-header">
+        <div class="whatsapp-widget-avatar">
+          <img src="assets/logo.jpg" alt="Areva Ingredients Logo">
+        </div>
+        <div class="whatsapp-widget-header-text">
+          <h3>Areva Ingredients</h3>
+          <p>Typically replies in minutes</p>
+        </div>
+        <button class="whatsapp-widget-close" id="whatsapp-widget-close" aria-label="Close Chat">
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+
+      <div class="whatsapp-widget-body">
+        <div class="whatsapp-chat-bubble">
+          Hello! Let us know how we can help you today. You can select your region below to place an order or ask a question directly on WhatsApp.
+        </div>
+
+        <div class="whatsapp-number-selector">
+          <!-- Oman Office -->
+          <div class="whatsapp-number-btn" data-number="+96871265767" data-region="Oman">
+            <div class="whatsapp-number-info">
+              <h4>Order - Oman Office</h4>
+              <p>+968 7126 5767</p>
+            </div>
+            <i class="bi bi-whatsapp"></i>
+          </div>
+
+          <!-- India Office -->
+          <div class="whatsapp-number-btn" data-number="+919383462670" data-region="India">
+            <div class="whatsapp-number-info">
+              <h4>Order - India Office</h4>
+              <p>+91 9383462670</p>
+            </div>
+            <i class="bi bi-whatsapp"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="whatsapp-widget-bubble" id="whatsapp-widget-bubble" aria-label="Open Chat Window">
+      <i class="bi bi-whatsapp"></i>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
