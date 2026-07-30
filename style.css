@@ -240,7 +240,7 @@ header.scrolled .nav-container {
 }
 
 .logo-img {
-  height: 2.75rem;
+  height: 3.75rem;
   width: auto;
   border-radius: 50%;
 }
@@ -2084,13 +2084,13 @@ header.scrolled .nav-container {
     height: 200px;
   }
   .hero-img-oil {
-    width: 120px;
+    width: 160px;
     height: 186px;
     left: 8%;
   }
   .hero-img-butter {
-    width: 130px;
-    height: 163px;
+    width: 160px;
+    height: 186px;
     right: 5%;
   }
   .hero-badge { display: none; }
